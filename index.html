@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interior-decoration</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="shortcut icon" href="./images/images (5).jpg" type="image/x-icon">
+	</head>
+	<body>
+		<header id="home">
+			<div class="side__nav" id="topNav">
+				<header class="logo" id="logo">Interiors.</header>
+				<a href="javascript:void(0)" class="close" onclick="closeNav()"
+					>&times;</a
+				>
+				<ul id="list">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#showcase">showcase</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#designers">designers</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</div>
+			<span class="opeen" onclick="openNav()">&#9776;</span>
+			<nav id="myNav" class="overlay">
+				<div class="logoo">Interiors.</div>
+				<a href="javascript:void(0)" class="closee" onclick="closeNa()">
+					&times;
+				</a>
+				<div class="overlay-content">
+					<ul id="hList">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#showcase">showcase</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#designers">designers</a></li>
+						<li><a href="#contact">contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<span class="open" onclick="openNa()"> &#9776; </span>
+		</header>
+		<main id="main">
+			<div class="container__1" id="showcase">
+				<h2 class="main__logo">Interior Design</h2>
+				<h2 class="red">Showcase.</h2>
+				<div class="border"></div>
+				<div class="images">
+					<img
+						src="./images/kitchenconcrete.jpg"
+						alt="kitchen concrete image" />
+					<img src="./images/atrium.jpg" alt="atrium image" />
+					<img src="./images/livingroom.jpg" alt="living room image" />
+					<img src="./images/bedroom.jpg" alt="bedroom image" />
+					<img src="./images/diningroom.jpg" alt="diningroom room images" />
+					<img src="./images/livingroom2.jpg" alt="second living room image" />
+				</div>
+			</div>
+			<div class="container__2" id="services">
+				<h2 class="red">our services</h2>
+				<div class="border"></div>
+				<p>
+					We are a interior design service that focus on what's best for your
+					home and what's best for you! We put our best in what we do to gv our
+					customers our best! Some text about our services - what we do and what
+					we offer. We are lorem ipsum consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+					culpa qui officia deserunt mollit anim id est laborum consectetur
+					adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+			<div class="containet__3" id="designers">
+				<h2 class="red">designers</h2>
+				<div class="border"></div>
+				<p>
+					Our Designers are well equipped and ready at all times We are lorem
+					ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est
+					laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip
+					ex ea commodo consequat.
+				</p>
+				<h2>Our designers are <strong>Thoughtfully chosen</strong></h2>
+				<div class="cards">
+					<div class="card">
+						<img src="./images/team1.jpg" alt="maarc baz image" />
+						<h3 class="name">maarc baz</h3>
+						<h3 class="status">CEO & Founder</h3>
+						<p>
+							Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+							sodales pellentesque elementum.
+						</p>
+					</div>
+					<div class="card">
+						<img src="./images/team2.jpg" alt="jane doe image" />
+						<h3 class="name">jane doe</h3>
+						<h3 class="status">interior designer</h3>
+						<p>
+							Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+							sodales pellentesque elementum.
+						</p>
+					</div>
+					<div class="card">
+						<img src="./images/team3.jpg" alt="mike rose image" />
+						<h3 class="name">mike rose</h3>
+						<h3 class="status">lead designer</h3>
+						<p>
+							Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+							sodales pellentesque elementum.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container__4" id="contact">
+				<h2 class="red">contact</h2>
+				<div class="border"></div>
+				<p></p>
+					Do you want us to style your home? Fill out the form and fill me in
+					with the details: We love meeting new people!
+				</p>
+				<form>
+					<label for="name">name</label><br />
+					<input type="text" name="name" id="name" required /><br />
+					<label for="email">email</label><br />
+					<input type="email" name="email" id="email" required /><br />
+					<label for="name">message</label><br />
+					<input type="text" name="message" id="message" required /><br /><br />
+					<button type="submit">send message</button>
+				</form>
+			</div>
+			<p class="sign">MB's Designs</p>
+		</main>
+		<script src="./app..js"></script>
+	</body>
+</html>
